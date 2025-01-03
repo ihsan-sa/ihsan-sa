@@ -4,7 +4,7 @@ I'm passionate about environmental sustainability and cutting edge electrical en
 
 - 🔭 I’m currently working on:  
   - Active Electronically Scanned Array (AESA) Radar, Synthetic Aperture Radar (SAR) and sonar at [aiRadar](https://airadar.com).  
-  - electromagagnetic simulation software for simulating and animating particle paths in complex electromagnetic environments such as nuclear fusors and visualizing their electromagnetic vector fields.  
+  - [electromagagnetic simulation software](https://github.com/ihsan-sa/Lorentz-Solver-V2) for simulating and animating particle paths in complex electromagnetic environments such as nuclear fusors and visualizing their electromagnetic vector fields.  
 - ⚡ I've built:
   - a 50kV 100W high volage power converter (HVPC) and electrohydrodynamic/ionic (EHD) thruster to author a research paper on EHD spatial optimization.
 - 🌱 I'm learning:
