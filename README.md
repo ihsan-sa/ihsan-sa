@@ -1,16 +1,28 @@
 ## Hi there, I'm Ihsan 👋
 
-My background is in high-speed hardware design, datacenter optical interconnects, and signal integrity. Every role I've held has been in a domain I was new to, and every time I was owning critical deliverables within weeks.
+Most of what I've built lately runs on a home server of coding agents. They plan the work, open pull requests, review each other's, and land their own merges once the gates pass. The framework is open source at [autobox](https://github.com/ihsan-sa/autobox).
 
-At Arista, I worked on next-gen optics for AI (12.8T XPO, CPO/NPO, and 1.6T modules) and ensured signal integrity on PCIe Gen 5 and 224G links.
+I build the same kind of tooling for hardware. [hwde](https://github.com/ihsan-sa/hwde) is an AI PCB engineer for KiCad and JLCPCB, and I've driven Verilog flows with agents end to end: RTL, testbenches, synthesis and GDS, on the open-source GF180 PDK.
 
-This summer I'm joining Atomic Semi, focusing on RF amplifier and power systems for plasma generation. I hope to deepen my understanding of the chip fab process and move into chip design.
+I use them for my coursework too: interactive lessons for a full course load, each with a tutor that answers from that course's own notes.
 
-I'm currently building ASIC experience through RISC-V based accelerator projects to develop experience in computer/DL architecture and RTL.
+At Fab2 (formerly Atomic Semi) I built RF amplifier and plasma-generation power systems for fast-turn semiconductor fab tools. One was a 200 W class-DE GaN sine inverter, schematic to first plasma in three weeks. I built an AI-accelerated PCB design workflow alongside it.
 
-I see nuclear fusion as indispensable to a sustainable future and social impact and sustainability are core to my work.
+At Arista I worked on next-gen optics for AI (12.8T XPO, CPO/NPO, and 1.6T modules) and signal integrity on PCIe Gen 5 and 224G links.
 
-Shoot me an email: hi@ihsan.cc
+I'm in electrical engineering at Waterloo. I see nuclear fusion as indispensable to a sustainable future, and social impact and sustainability are core to my work.
+
+### Where to start
+
+- [autobox](https://github.com/ihsan-sa/autobox) · the agent box above: orchestration, sandboxing, hooks, audits
+- [hwde](https://github.com/ihsan-sa/hwde) · an AI PCB engineer for KiCad and JLCPCB, as a Claude Code skill
+- [lumina](https://github.com/ihsan-sa/lumina) · AI lighting that reads a track's structure and choreographs it live
+- [pdf-material-builder](https://github.com/ihsan-sa/pdf-material-builder) · builds a five-document LaTeX study pack for any course
+- [lesson-builder](https://github.com/ihsan-sa/lesson-builder) · builds interactive lessons with a tutor built in
+- [Ionic-Thruster-and-HVPC](https://github.com/ihsan-sa/Ionic-Thruster-and-HVPC) · 50 kV converter and EHD thruster, behind my research paper
+
+hi@ihsan.cc
+
 <!--
 I'm passionate about environmental sustainability and cutting edge electrical engineering, and my best work can be found at the intersection of these two areas.  
 
