@@ -1,53 +1,21 @@
-## Hi there, I'm Ihsan 👋
+## Hi, I'm Ihsan
 
-Most of what I've built lately runs on a home server of coding agents. They plan the work, open pull requests, review each other's, and land their own merges once the gates pass. The framework is open source at [autobox](https://github.com/ihsan-sa/autobox).
+I'm Ihsan, an electrical engineering student at Waterloo. This fall I directed a team of AI agents through an entire hardware project: [HiFi Lite](https://github.com/Hive-RSI-Lab/hifi-lite), a streaming stereo amplifier. The agents designed the board, firmware, app, case and test bench. Five were built, and all five passed the board's self-test.
 
-I build the same kind of tooling for hardware. [hwde](https://github.com/ihsan-sa/hwde) is an AI PCB engineer for KiCad and JLCPCB, and I've driven Verilog flows with agents end to end: RTL, testbenches, synthesis and GDS, on the open-source GF180 PDK.
+The system that runs the agents is [The Hive](https://github.com/ihsan-sa/hive), which is open source ([hivelab.ca](https://hivelab.ca)). Agents share one sandbox and one knowledge base, start each other and split up the work. Changes to its own instructions and code get benchmarked, and only land if they score better. Before The Hive there was [autobox](https://github.com/ihsan-sa/autobox), where agents merged over 3,400 PRs across 26 repos in 8 weeks.
 
-I use them for my coursework too: interactive lessons for a full course load, each with a tutor that answers from that course's own notes.
+I build the same kind of tooling for hardware. [hwde](https://github.com/ihsan-sa/hwde) takes a written brief to a board a factory can make, with 4 human sign-offs along the way, and its checks caught all 218 faults we planted. [chip-flow](https://github.com/ihsan-sa/chip-flow) designs GF180 chips, and is currently working on a charge-pump PLL for a Tiny Tapeout tile.
 
-At Fab2 (formerly Atomic Semi) I built RF amplifier and plasma-generation power systems for fast-turn semiconductor fab tools. One was a 200 W class-DE GaN sine inverter, schematic to first plasma in three weeks. I built an AI-accelerated PCB design workflow alongside it.
+My co-ops were all hardware: signal integrity on 224G links and power for co-packaged optics at Arista, a 200 W GaN inverter for RF plasma at Fab2 (first plasma in three weeks), and power electronics at aiRadar. They're why I can tell when an agent is wrong.
 
-At Arista I worked on next-gen optics for AI (12.8T XPO, CPO/NPO, and 1.6T modules) and signal integrity on PCIe Gen 5 and 224G links.
-
-I'm in electrical engineering at Waterloo. I see nuclear fusion as indispensable to a sustainable future, and social impact and sustainability are core to my work.
+I'm looking for a January to April 2027 co-op. Reach me at hi@ihsan.cc
 
 ### Where to start
 
-- [autobox](https://github.com/ihsan-sa/autobox) · the agent box above: orchestration, sandboxing, hooks, audits
-- [hwde](https://github.com/ihsan-sa/hwde) · an AI PCB engineer for KiCad and JLCPCB, as a Claude Code skill
-- [lumina](https://github.com/ihsan-sa/lumina) · AI lighting that reads a track's structure and choreographs it live
-- [pdf-material-builder](https://github.com/ihsan-sa/pdf-material-builder) · builds a five-document LaTeX study pack for any course
-- [lesson-builder](https://github.com/ihsan-sa/lesson-builder) · builds interactive lessons with a tutor built in
+- [hive](https://github.com/ihsan-sa/hive) · the Hive: a team of Claude Code agents on your own machine
+- [hifi-lite](https://github.com/Hive-RSI-Lab/hifi-lite) · the amplifier the agents designed, with the full design record
+- [interp](https://github.com/Hive-RSI-Lab/interp) · small interpretability experiments on GPT-2 and Pythia, with predictions written first
+- [hwde](https://github.com/ihsan-sa/hwde) · written circuit brief to an order-ready JLCPCB package; [hwde-boards](https://github.com/ihsan-sa/hwde-boards) has the boards it made
+- [chip-flow](https://github.com/ihsan-sa/chip-flow) · Claude Code skills for chip design with open tools; [ece298a-pll](https://github.com/ihsan-sa/ece298a-pll) is the PLL
+- [lesson-builder](https://github.com/ihsan-sa/lesson-builder) · course notes and slides into lessons with an AI tutor inside
 - [Ionic-Thruster-and-HVPC](https://github.com/ihsan-sa/Ionic-Thruster-and-HVPC) · 50 kV converter and EHD thruster, behind my research paper
-
-hi@ihsan.cc
-
-<!--
-I'm passionate about environmental sustainability and cutting edge electrical engineering, and my best work can be found at the intersection of these two areas.  
-
-- 🔭 I’m currently working on:  
-  - Active Electronically Scanned Array (AESA) Radar, Synthetic Aperture Radar (SAR) and sonar at [aiRadar](https://airadar.com).  
-  - [electromagagnetic simulation software](https://github.com/ihsan-sa/Lorentz-Solver-V2) for simulating and animating particle paths in complex electromagnetic environments such as nuclear fusors and visualizing their electromagnetic vector fields.  
-- ⚡ I've built:
-  - a [50kV 100W high volage power converter (HVPC) and electrohydrodynamic/ionic (EHD) thruster](https://github.com/ihsan-sa/Ionic-Thruster-and-HVPC) to author a research paper on EHD spatial optimization.
-- 🌱 I'm learning:
-  - about nuclear fusion and fusors and am writing software to simulate core concepts along the way.
-  - how to run RF simulations in Ansys HFSS.
-  - about designing RF systems and Radar.
-
-
-<!--
-**ihsan-sa/ihsan-sa** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
